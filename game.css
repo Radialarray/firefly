@@ -1,0 +1,39 @@
+@font-face {
+    font-family: 'webpixel bitmap_light';
+    src: url('font/webpixel bitmap_light.otf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body{
+  overflow: hidden;
+}
+
+canvas{
+  position: relative;
+  left: 0px;
+  top: 0px;
+  padding: 0px;
+  margin: 0px;
+             /*border:1px solid rgba(84, 84, 102, 0.8)*/
+}
+
+h1 {
+    font-weight: normal;
+    font-variant: normal;
+    font-style: normal;
+    font-size: 12px;
+    font-family: Roboto-Medium,sans-serif;
+    color:#808080;
+    /*text-align:center;*/
+}
+
+h2 {
+    font-weight: normal;
+    font-variant: normal;
+    font-style: normal;
+    font-size: 10px;
+    font-family: webpixel bitmap_light;
+    color:#aaaaaa;
+    /*text-align:center;*/
+}
